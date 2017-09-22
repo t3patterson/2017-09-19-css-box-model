@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 110px;
+
+  height: 500px;
+  width: 600px;
+  border: 10px solid red;
+  padding: 20px; /*padding-top, -right, -bottom, -left*/
+  margin: 100px;
+  text-align: center;
+
+}
+
+
+/*
+  BOX MODEL = width/height + padding + border + margin
+*/
